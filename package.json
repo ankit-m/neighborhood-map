@@ -1,11 +1,13 @@
 {
   "name": "neigborhood-map",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "description": "A web application which lists down (just 5) places to visit in Mumbai. You can search (not that you will need it in 5 places) and find more about the place by clicking on the list item or the markers. It uses **Wikipedia API** to fetch the short description.",
+  "main": "index.html",
+  "author": "ankit-m",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "knockout": "^3.4.1",
+    "materialize-css": "^0.97.8"
+  }
 }

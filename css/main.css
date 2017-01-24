@@ -2,6 +2,12 @@ header, main, footer {
   padding-left: 300px;
 }
 
+.search-box {
+  width: 300px;
+  padding-left: 10px !important;
+  margin: 0;
+}
+
 #map {
   width: 100%;
   height: calc(100vh - 64px)
